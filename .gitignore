@@ -1,0 +1,4 @@
+pipeline/*.json
+pipeline/*.pkl
+pipeline/out/
+*.xlsx

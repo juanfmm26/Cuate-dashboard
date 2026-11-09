@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Cuate — ventas</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌮</text></svg>">
+  <link rel="stylesheet" href="theme.css">
+</head>
+<body>
+  <div id="login" class="login">
+    <form>
+      <h1>Cuate — ventas</h1>
+      <p>Escribe la contraseña para ver el dashboard.</p>
+      <input id="pw" type="password" autocomplete="current-password" placeholder="Contraseña" required>
+      <label><input id="recordar" type="checkbox" checked> Recordar en este dispositivo</label>
+      <button id="entrar" type="submit">Entrar</button>
+      <div id="err" class="err"></div>
+    </form>
+  </div>
+  <div id="app" hidden>
+    <div class="topbar"><span>Datos hasta el <b id="upd"></b></span><button id="salir" type="button">Salir</button></div>
+    <div id="dash-root"></div>
+  </div>
+  <script src="d3.min.js"></script>
+  <script src="dash-shim.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
