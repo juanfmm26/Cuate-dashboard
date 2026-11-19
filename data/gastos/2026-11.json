@@ -6,7 +6,7 @@
     "WhatsApp Contabilidad.zip",
     "Aclaraciones manuales del usuario"
   ],
-  "nota": "Fecha del mensaje usada salvo movimientos manuales. Montos en moneda original, sin conversion a USD. Compras no equivalen a consumo. No se incorporan fotos sin importe legible ni comentarios.",
+  "nota": "Montos originales preservados; equivalentes USD calculados según tabla de tasas guardada. Compras no equivalen a consumo. Imágenes sin lectura y comentarios no se incorporan. No constituye conciliación bancaria.",
   "totales": {
     "VES": 3437426.59,
     "USD": 70,
@@ -29,6 +29,10 @@
       "fecha": "2026-11-16",
       "concepto": "Compra mixta",
       "motivo": "Sin desglose por articulo"
+    },
+    {
+      "concepto": "Conciliación de tasas",
+      "motivo": "Verificar cada tasa contra publicación oficial BCV de la fecha; se preservan las tasas utilizadas."
     }
   ],
   "movimientos": [
@@ -585,6 +589,7 @@
     "precision_tasas": "4 decimales",
     "redondeo": "por movimiento a 2 decimales",
     "tasa_fin_de_semana": "ultima tasa vigente",
-    "factor": 0.85
+    "factor": 0.85,
+    "verificacion": "Tasas almacenadas con referencias secundarias, pendiente de comprobación individual contra histórico oficial BCV; no considerarlas auditadas."
   }
 }
