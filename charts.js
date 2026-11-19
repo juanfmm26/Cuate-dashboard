@@ -57,7 +57,7 @@
     if (!rows.length) { el.textContent = '—'; return; }
     if (cfg.legend) legend(el, cfg.series);
     const box = document.createElement('div'); box.className = 'ch-box'; el.appendChild(box);
-    const W = Math.max(260, el.clientWidth), H = cfg.height || 260;
+    const W = Math.max(320, el.clientWidth || 320), H = Math.max(280, cfg.height || 260);
     const svg = d3.select(box).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('class', 'ch-svg');
     const bars = cfg.series.filter((s) => s.type !== 'line');
     const lines = cfg.series.filter((s) => s.type === 'line');
@@ -69,12 +69,12 @@
       ymax = Math.max(bmax || 0, lmax || 0, cfg.refLine ? cfg.refLine.value : 0);
     }
     const fmt = cfg.yFormat || F.int;
-    const bottom = 26, top = 10;
+    const bottom = 38, top = 16;
     const y = d3.scaleLinear([0, ymax || 1], [H - bottom, top]).nice(5);
     const ticks = y.ticks(5);
     const probe = svg.append('text').attr('class', 'ch-tick');
     let lw = 0; ticks.forEach((t) => { probe.text(fmt(t)); lw = Math.max(lw, probe.node().getComputedTextLength()); });
-    const m = { l: lw + 10, r: 8 };
+    const m = { l: Math.max(44, lw + 16), r: 18 };
     const x = d3.scaleBand(rows.map(cfg.key), [m.l, W - m.r]).paddingInner(cfg.pad ?? 0.25).paddingOuter(0.08);
     // x tick labels, thinned so they never meet
     const labIdx = rows.map((r, i) => (cfg.xTick ? cfg.xTick(r, i) : true));
@@ -90,8 +90,8 @@
       .attr('x', m.l - 6).attr('y', (d) => y(d)).attr('dy', '0.32em').attr('text-anchor', 'end').text((d) => fmt(d));
     svg.append('line').attr('class', 'ch-axis').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y(0)).attr('y2', y(0));
     svg.append('g').selectAll('text').data(shown.filter((_, k) => k % every === 0)).join('text').attr('class', 'ch-tick')
-      .attr('x', (i) => x(cfg.key(rows[i])) + (cfg.xTick ? 0 : x.bandwidth() / 2)).attr('y', H - 8)
-      .attr('text-anchor', cfg.xTick ? 'start' : 'middle').text((i) => cfg.xLabel(rows[i]));
+      .attr('x', (i) => x(cfg.key(rows[i])) + x.bandwidth() / 2).attr('y', H - 14)
+      .attr('text-anchor', 'middle').text((i) => cfg.xLabel(rows[i]));
 
     const bw = x.bandwidth();
     const gBars = svg.append('g');
