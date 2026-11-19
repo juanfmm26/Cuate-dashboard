@@ -2,9 +2,9 @@
   const KEY = 'cuate_clave';
   const $ = (s) => document.querySelector(s);
   const b64 = (s) => Uint8Array.from(atob(s), (c) => c.charCodeAt(0));
-  const guardar = (pw) => { try { localStorage.setItem(KEY, pw); } catch (e) {} };
-  const leer = () => { try { return localStorage.getItem(KEY); } catch (e) { return null; } };
-  const borrar = () => { try { localStorage.removeItem(KEY); } catch (e) {} };
+  const guardar = (pw) => { try { sessionStorage.setItem(KEY, pw); localStorage.removeItem(KEY); } catch (e) {} };
+  const leer = () => { try { localStorage.removeItem(KEY); return sessionStorage.getItem(KEY); } catch (e) { return null; } };
+  const borrar = () => { try { localStorage.removeItem(KEY); sessionStorage.removeItem(KEY); } catch (e) {} };
 
   async function descifrar(pw) {
     const enc = await (await fetch('data.enc.json?v=' + Date.now(), { cache: 'no-store' })).json();
@@ -24,7 +24,7 @@
     $('#app').hidden = false;
     $('#upd').textContent = datos.actualizado;
     $('#dash-root').innerHTML = panel;
-    for (const f of ['charts.js', 'calcs.js', 'main.js', 'foodcost.js', 'foodcost-analytics.js', 'gastos.js']) await cargarScript(f + '?v=20261119-ux5');
+    for (const f of ['charts.js', 'calcs.js', 'main.js', 'foodcost.js', 'foodcost-analytics.js', 'gastos-data.js', 'gastos.js', 'secure-export.js']) await cargarScript(f + '?v=20261119-security6');
     window.__dashStart(datos);
   }
 
