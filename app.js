@@ -24,7 +24,7 @@
     $('#app').hidden = false;
     $('#upd').textContent = datos.actualizado;
     $('#dash-root').innerHTML = panel;
-    for (const f of ['charts.js', 'calcs.js', 'main.js', 'foodcost.js', 'foodcost-analytics.js', 'gastos.js']) await cargarScript(f + '?v=20261119-menu-v3');
+    for (const f of ['charts.js', 'calcs.js', 'main.js', 'foodcost.js', 'foodcost-analytics.js', 'gastos.js']) await cargarScript(f + '?v=20261119-tooltip-v4');
     window.__dashStart(datos);
   }
 
