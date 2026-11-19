@@ -8,6 +8,7 @@
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌮</text></svg>">
   <link rel="stylesheet" href="theme.css">
   <link rel="stylesheet" href="ui.css">
+  <link rel="stylesheet" href="areas.css">
 </head>
 <body>
   <div id="login" class="login">
@@ -22,12 +23,13 @@
   </div>
   <div id="app" hidden>
     <div class="topbar"><span>Datos hasta el <b id="upd"></b></span><button id="salir" type="button">Salir</button></div>
-    <div id="dash-root"></div>
+    <div class="workspace"><aside class="sidebar" aria-label="Áreas de gestión"><div class="sidebar-title">🌮 Cuate</div><nav id="area-nav"><button type="button" data-area="ventas" class="active">📊 Ventas</button><button type="button" data-area="gastos">💸 Gastos y compras</button><button type="button" data-area="foodcost">🌮 Food Cost</button><button type="button" data-area="rentabilidad">📈 Rentabilidad</button><button type="button" data-area="operaciones">🛠️ Operación del local</button><button type="button" data-area="auditoria">📋 Auditoría</button></nav></aside><main id="dash-root"></main></div>
   </div>
   <script src="d3.min.js"></script>
   <script src="dash-shim.js"></script>
   <script src="app.js"></script>
   <script src="ui.js"></script>
   <script src="operaciones.js"></script>
+  <script src="areas.js"></script>
 </body>
 </html>
