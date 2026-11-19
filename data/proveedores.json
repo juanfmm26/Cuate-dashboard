@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "proveedores": [
+    {
+      "nombre": "Confiaca",
+      "concepto": "Servicios contables",
+      "categoria": "Administración y contabilidad",
+      "confirmado": true
+    },
+    {
+      "nombre": "Distrilasr",
+      "concepto": "Tortillas",
+      "categoria": "Materia prima e ingredientes",
+      "confirmado": true
+    },
+    {
+      "nombre": "Farmaexpress",
+      "concepto": "Productos para cena del personal, sin desglose",
+      "categoria": "Nómina y beneficios",
+      "confirmado": true
+    },
+    {
+      "nombre": "Moisés",
+      "concepto": "Delivery",
+      "categoria": "Transporte y logística",
+      "confirmado": true
+    },
+    {
+      "nombre": "Tito",
+      "concepto": "Delivery",
+      "categoria": "Transporte y logística",
+      "confirmado": true
+    }
+  ]
+}
