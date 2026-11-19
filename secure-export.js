@@ -6,8 +6,8 @@ const bytes=n=>crypto.getRandomValues(new Uint8Array(n));
 async function exportEncrypted(){
  const rows=window.CUATE_FC_ROWS;
  if(!rows?.length){alert('No se encontraron los costos del menú.');return}
- const pass=window.__cuateExportPassword;
- if(!pass){alert('Vuelve a iniciar sesión para generar el archivo cifrado.');return}
+ const pass=window.prompt('Introduce tu contraseña de Cuate para cifrar este archivo. No la compartas en el chat.');
+ if(!pass)return;
  const salt=bytes(16),iv=bytes(12);
  const base=await crypto.subtle.importKey('raw',enc.encode(pass),'PBKDF2',false,['deriveKey']);
  const key=await crypto.subtle.deriveKey({name:'PBKDF2',salt,iterations:310000,hash:'SHA-256'},base,{name:'AES-GCM',length:256},false,['encrypt']);
