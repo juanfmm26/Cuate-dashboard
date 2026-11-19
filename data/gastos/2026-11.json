@@ -1,0 +1,454 @@
+{
+  "schema_version": 1,
+  "periodo": "2026-11",
+  "estado": "preliminar_pendiente_conciliacion",
+  "fuentes": [
+    "WhatsApp Contabilidad.zip",
+    "Aclaraciones manuales del usuario"
+  ],
+  "nota": "Fecha del mensaje usada salvo movimientos manuales. Montos en moneda original, sin conversion a USD. Compras no equivalen a consumo. No se incorporan fotos sin importe legible ni comentarios.",
+  "totales": {
+    "VES": 3437426.59,
+    "USD": 70,
+    "movimientos": 42
+  },
+  "pendientes": [
+    {
+      "fecha": "2026-11-16",
+      "concepto": "Refrescos Pulgar",
+      "motivo": "Sin importe visible"
+    },
+    {
+      "fecha": "2026-11-15",
+      "concepto": "Luis USD 20",
+      "motivo": "Concepto especifico sin confirmar"
+    },
+    {
+      "fecha": "2026-11-16",
+      "concepto": "Compra mixta",
+      "motivo": "Sin desglose por articulo"
+    }
+  ],
+  "movimientos": [
+    {
+      "id": "G202611-001",
+      "fecha": "2026-11-02",
+      "concepto": "Queso",
+      "monto": 88179,
+      "moneda": "VES",
+      "categoria": "Materia prima e ingredientes",
+      "fuente": "manual",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-002",
+      "fecha": "2026-11-02",
+      "concepto": "Mitad del alquiler",
+      "monto": 244839.71,
+      "moneda": "VES",
+      "categoria": "Alquiler",
+      "fuente": "manual",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-003",
+      "fecha": "2026-11-02",
+      "concepto": "Carnes",
+      "monto": 228771.45,
+      "moneda": "VES",
+      "categoria": "Materia prima e ingredientes",
+      "fuente": "manual",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-004",
+      "fecha": "2026-11-02",
+      "concepto": "Transporte",
+      "monto": 48800,
+      "moneda": "VES",
+      "categoria": "Transporte y logística",
+      "fuente": "manual",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-005",
+      "fecha": "2026-11-03",
+      "concepto": "Karmin - redes sociales",
+      "monto": 75000,
+      "moneda": "VES",
+      "categoria": "Publicidad y promociones",
+      "fuente": "manual",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-006",
+      "fecha": "2026-11-03",
+      "concepto": "Pepsi",
+      "monto": 61112,
+      "moneda": "VES",
+      "categoria": "Bebidas",
+      "fuente": "manual",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-007",
+      "fecha": "2026-11-03",
+      "concepto": "Verduras",
+      "monto": 127556,
+      "moneda": "VES",
+      "categoria": "Materia prima e ingredientes",
+      "fuente": "manual",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-008",
+      "fecha": "2026-11-03",
+      "concepto": "Coca-Cola",
+      "monto": 115318.19,
+      "moneda": "VES",
+      "categoria": "Bebidas",
+      "fuente": "manual",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-009",
+      "fecha": "2026-11-03",
+      "concepto": "Liquidación Gustavo",
+      "monto": 50558,
+      "moneda": "VES",
+      "categoria": "Nómina y beneficios",
+      "fuente": "manual",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-010",
+      "fecha": "2026-11-05",
+      "concepto": "Cisterna",
+      "monto": 11000,
+      "moneda": "VES",
+      "categoria": "Servicios",
+      "fuente": "manual",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-011",
+      "fecha": "2026-11-07",
+      "concepto": "Queso",
+      "monto": 68250,
+      "moneda": "VES",
+      "categoria": "Materia prima e ingredientes",
+      "fuente": "manual",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-012",
+      "fecha": "2026-11-07",
+      "concepto": "Cisterna",
+      "monto": 11000,
+      "moneda": "VES",
+      "categoria": "Servicios",
+      "fuente": "manual",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-013",
+      "fecha": "2026-11-09",
+      "concepto": "Carnes",
+      "monto": 229652.63,
+      "moneda": "VES",
+      "categoria": "Materia prima e ingredientes",
+      "fuente": "whatsapp",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-014",
+      "fecha": "2026-11-09",
+      "concepto": "Internet",
+      "monto": 26687.1,
+      "moneda": "VES",
+      "categoria": "Servicios",
+      "fuente": "whatsapp",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-015",
+      "fecha": "2026-11-09",
+      "concepto": "Alquiler",
+      "monto": 250295,
+      "moneda": "VES",
+      "categoria": "Alquiler",
+      "fuente": "whatsapp",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-016",
+      "fecha": "2026-11-09",
+      "concepto": "Luis - reparación de neveras",
+      "monto": 50,
+      "moneda": "USD",
+      "categoria": "Mantenimiento y reparaciones",
+      "fuente": "whatsapp",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-017",
+      "fecha": "2026-11-10",
+      "concepto": "Coca-Cola",
+      "monto": 37741.28,
+      "moneda": "VES",
+      "categoria": "Bebidas",
+      "fuente": "whatsapp",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-018",
+      "fecha": "2026-11-10",
+      "concepto": "Farmaexpress - productos para cena",
+      "monto": 32124,
+      "moneda": "VES",
+      "categoria": "Nómina y beneficios",
+      "fuente": "whatsapp",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-019",
+      "fecha": "2026-11-11",
+      "concepto": "Confiaca - servicios contables",
+      "monto": 112666,
+      "moneda": "VES",
+      "categoria": "Administración y contabilidad",
+      "fuente": "whatsapp",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-020",
+      "fecha": "2026-11-11",
+      "concepto": "Moisés - delivery",
+      "monto": 6311.27,
+      "moneda": "VES",
+      "categoria": "Transporte y logística",
+      "fuente": "whatsapp",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-021",
+      "fecha": "2026-11-11",
+      "concepto": "Condimentos",
+      "monto": 49280,
+      "moneda": "VES",
+      "categoria": "Materia prima e ingredientes",
+      "fuente": "whatsapp",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-022",
+      "fecha": "2026-11-11",
+      "concepto": "Sillas",
+      "monto": 84752.28,
+      "moneda": "VES",
+      "categoria": "Equipos y mobiliario",
+      "fuente": "whatsapp",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-023",
+      "fecha": "2026-11-13",
+      "concepto": "Distrilasr - tortillas",
+      "monto": 136740,
+      "moneda": "VES",
+      "categoria": "Materia prima e ingredientes",
+      "fuente": "whatsapp",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-024",
+      "fecha": "2026-11-13",
+      "concepto": "Cisterna",
+      "monto": 11000,
+      "moneda": "VES",
+      "categoria": "Servicios",
+      "fuente": "whatsapp",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-025",
+      "fecha": "2026-11-14",
+      "concepto": "Quesos",
+      "monto": 79764,
+      "moneda": "VES",
+      "categoria": "Materia prima e ingredientes",
+      "fuente": "whatsapp",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-026",
+      "fecha": "2026-11-14",
+      "concepto": "Carnes",
+      "monto": 167867,
+      "moneda": "VES",
+      "categoria": "Materia prima e ingredientes",
+      "fuente": "whatsapp",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-027",
+      "fecha": "2026-11-14",
+      "concepto": "Nómina",
+      "monto": 272250,
+      "moneda": "VES",
+      "categoria": "Nómina y beneficios",
+      "fuente": "whatsapp",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-028",
+      "fecha": "2026-11-15",
+      "concepto": "Hielo",
+      "monto": 3700,
+      "moneda": "VES",
+      "categoria": "Materia prima e ingredientes",
+      "fuente": "whatsapp",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-029",
+      "fecha": "2026-11-15",
+      "concepto": "Luis - efectivo (concepto por confirmar)",
+      "monto": 20,
+      "moneda": "USD",
+      "categoria": "Otros",
+      "fuente": "whatsapp",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-030",
+      "fecha": "2026-11-16",
+      "concepto": "Naranjas y piña",
+      "monto": 5211,
+      "moneda": "VES",
+      "categoria": "Materia prima e ingredientes",
+      "fuente": "whatsapp",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-031",
+      "fecha": "2026-11-16",
+      "concepto": "Cloro",
+      "monto": 5065.19,
+      "moneda": "VES",
+      "categoria": "Limpieza e higiene",
+      "fuente": "whatsapp",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-032",
+      "fecha": "2026-11-16",
+      "concepto": "Compra mixta supermercado",
+      "monto": 95418,
+      "moneda": "VES",
+      "categoria": "Otros",
+      "fuente": "whatsapp",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-033",
+      "fecha": "2026-11-17",
+      "concepto": "Condimento ahumado",
+      "monto": 11343.49,
+      "moneda": "VES",
+      "categoria": "Materia prima e ingredientes",
+      "fuente": "whatsapp",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-034",
+      "fecha": "2026-11-17",
+      "concepto": "Cisterna",
+      "monto": 11000,
+      "moneda": "VES",
+      "categoria": "Servicios",
+      "fuente": "whatsapp",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-035",
+      "fecha": "2026-11-17",
+      "concepto": "Coca-Cola",
+      "monto": 75060,
+      "moneda": "VES",
+      "categoria": "Bebidas",
+      "fuente": "whatsapp",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-036",
+      "fecha": "2026-11-17",
+      "concepto": "Carne",
+      "monto": 65558,
+      "moneda": "VES",
+      "categoria": "Materia prima e ingredientes",
+      "fuente": "whatsapp",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-037",
+      "fecha": "2026-11-17",
+      "concepto": "Cena del personal",
+      "monto": 15581,
+      "moneda": "VES",
+      "categoria": "Nómina y beneficios",
+      "fuente": "whatsapp",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-038",
+      "fecha": "2026-11-17",
+      "concepto": "Plásticos",
+      "monto": 32527,
+      "moneda": "VES",
+      "categoria": "Empaques y desechables",
+      "fuente": "whatsapp",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-039",
+      "fecha": "2026-11-17",
+      "concepto": "Tito - abono delivery",
+      "monto": 18316,
+      "moneda": "VES",
+      "categoria": "Transporte y logística",
+      "fuente": "whatsapp",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-040",
+      "fecha": "2026-11-17",
+      "concepto": "Verduras (incluye limones según mensaje)",
+      "monto": 207932,
+      "moneda": "VES",
+      "categoria": "Materia prima e ingredientes",
+      "fuente": "whatsapp",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-041",
+      "fecha": "2026-11-17",
+      "concepto": "Distrilasr - tortillas",
+      "monto": 183200,
+      "moneda": "VES",
+      "categoria": "Materia prima e ingredientes",
+      "fuente": "whatsapp",
+      "estado": "identificado_pendiente_conciliacion"
+    },
+    {
+      "id": "G202611-042",
+      "fecha": "2026-11-17",
+      "concepto": "Luis - mantenimiento aires y neveras",
+      "monto": 80000,
+      "moneda": "VES",
+      "categoria": "Mantenimiento y reparaciones",
+      "fuente": "whatsapp",
+      "estado": "identificado_pendiente_conciliacion"
+    }
+  ]
+}
