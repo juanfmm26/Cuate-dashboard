@@ -24,7 +24,7 @@
     $('#app').hidden = false;
     $('#upd').textContent = datos.actualizado;
     $('#dash-root').innerHTML = panel;
-    for (const f of ['charts.js', 'calcs.js', 'main.js', 'foodcost.js', 'foodcost-analytics.js', 'gastos-data.js', 'gastos.js', 'secure-export.js']) await cargarScript(f + '?v=20261119-security6');
+    for (const f of ['charts.js', 'calcs.js', 'main.js', 'foodcost.js', 'foodcost-analytics.js', 'gastos-data.js', 'gastos.js']) await cargarScript(f + '?v=20261119-security6');
     window.__dashStart(datos);
   }
 
