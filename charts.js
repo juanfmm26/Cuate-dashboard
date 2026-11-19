@@ -34,7 +34,8 @@
         });
         t.hidden = false;
         const w = t.offsetWidth, W = el.clientWidth;
-        t.style.left = Math.max(0, Math.min(W - w, cx - w / 2)) + 'px';
+        t.style.left = Math.max(8, Math.min(Math.max(8,W-w-8), cx - w / 2)) + 'px';
+        t.style.top = '8px';
       },
       hide() { t.hidden = true; },
     };
@@ -134,11 +135,14 @@
     svg.append('rect').attr('x', m.l).attr('y', 0).attr('width', W - m.l - m.r).attr('height', H).attr('fill', 'transparent')
       .on('pointermove', (ev) => {
         const [px] = d3.pointer(ev);
-        const i = Math.max(0, Math.min(rows.length - 1, Math.floor((px - x(keys[0]) + x.step() * x.paddingInner() / 2) / x.step())));
+        // Match the nearest actual band center (not the left edge of a band).
+        const firstCenter = x(keys[0]) + bw / 2;
+        const i = Math.max(0, Math.min(rows.length - 1, Math.round((px - firstCenter) / x.step())));
         const r = rows[i]; const cx = x(keys[i]) + bw / 2;
         hover.attr('x1', cx).attr('x2', cx).style('opacity', 1);
         gBars.selectAll('rect').classed('ch-dim', function () { return this.getAttribute('data-k') !== keys[i]; });
-        const items = cfg.series.map((s) => ({ name: s.name, color: cfg.series.length > 1 ? s.color : null, value: val(s, r) == null ? '—' : (s.fmt || fmt)(val(s, r)) + (cfg.tipShare ? ' · ' + F.pct0(val(s, r) / d3.sum(cfg.series, (q) => val(q, r) || 0)) : '') }));
+        const shareDenominator = d3.sum(cfg.series, (q) => val(q, r) || 0);
+        const items = cfg.series.map((s) => ({ name: s.name, color: cfg.series.length > 1 ? s.color : null, value: val(s, r) == null ? '—' : (s.fmt || fmt)(val(s, r)) + (cfg.tipShare && shareDenominator > 0 ? ' · ' + F.pct0(val(s, r) / shareDenominator) : '') }));
         (cfg.extraTip || []).forEach((e) => items.push({ name: e.name, value: e.value(r) }));
         tip.show(cx * (box.clientWidth / W), cfg.tipTitle ? cfg.tipTitle(r) : cfg.xLabel(r), items);
       })
