@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "periodo": "2026-11",
-  "estado": "preliminar_pendiente_conciliacion",
+  "estado": "convertido_pendiente_conciliacion",
   "fuentes": [
     "WhatsApp Contabilidad.zip",
     "Aclaraciones manuales del usuario"
@@ -10,7 +10,9 @@
   "totales": {
     "VES": 3437426.59,
     "USD": 70,
-    "movimientos": 42
+    "movimientos": 42,
+    "usd_bcv": 3878.94,
+    "usd_equivalente": 3307.6
   },
   "pendientes": [
     {
@@ -38,7 +40,10 @@
       "moneda": "VES",
       "categoria": "Materia prima e ingredientes",
       "fuente": "manual",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": 889.5754,
+      "usd_bcv": 99.12,
+      "usd_equivalente": 84.26
     },
     {
       "id": "G202611-002",
@@ -48,7 +53,10 @@
       "moneda": "VES",
       "categoria": "Alquiler",
       "fuente": "manual",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": 889.5754,
+      "usd_bcv": 275.23,
+      "usd_equivalente": 233.95
     },
     {
       "id": "G202611-003",
@@ -58,7 +66,10 @@
       "moneda": "VES",
       "categoria": "Materia prima e ingredientes",
       "fuente": "manual",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": 889.5754,
+      "usd_bcv": 257.17,
+      "usd_equivalente": 218.59
     },
     {
       "id": "G202611-004",
@@ -68,7 +79,10 @@
       "moneda": "VES",
       "categoria": "Transporte y logística",
       "fuente": "manual",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": 889.5754,
+      "usd_bcv": 54.86,
+      "usd_equivalente": 46.63
     },
     {
       "id": "G202611-005",
@@ -78,7 +92,10 @@
       "moneda": "VES",
       "categoria": "Publicidad y promociones",
       "fuente": "manual",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": 891.1054,
+      "usd_bcv": 84.17,
+      "usd_equivalente": 71.54
     },
     {
       "id": "G202611-006",
@@ -88,7 +105,10 @@
       "moneda": "VES",
       "categoria": "Bebidas",
       "fuente": "manual",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": 891.1054,
+      "usd_bcv": 68.58,
+      "usd_equivalente": 58.29
     },
     {
       "id": "G202611-007",
@@ -98,7 +118,10 @@
       "moneda": "VES",
       "categoria": "Materia prima e ingredientes",
       "fuente": "manual",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": 891.1054,
+      "usd_bcv": 143.14,
+      "usd_equivalente": 121.67
     },
     {
       "id": "G202611-008",
@@ -108,7 +131,10 @@
       "moneda": "VES",
       "categoria": "Bebidas",
       "fuente": "manual",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": 891.1054,
+      "usd_bcv": 129.41,
+      "usd_equivalente": 110
     },
     {
       "id": "G202611-009",
@@ -118,7 +144,10 @@
       "moneda": "VES",
       "categoria": "Nómina y beneficios",
       "fuente": "manual",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": 891.1054,
+      "usd_bcv": 56.74,
+      "usd_equivalente": 48.23
     },
     {
       "id": "G202611-010",
@@ -128,7 +157,10 @@
       "moneda": "VES",
       "categoria": "Servicios",
       "fuente": "manual",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": 894.8876,
+      "usd_bcv": 12.29,
+      "usd_equivalente": 10.45
     },
     {
       "id": "G202611-011",
@@ -138,7 +170,10 @@
       "moneda": "VES",
       "categoria": "Materia prima e ingredientes",
       "fuente": "manual",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": 896.1225,
+      "usd_bcv": 76.16,
+      "usd_equivalente": 64.74
     },
     {
       "id": "G202611-012",
@@ -148,7 +183,10 @@
       "moneda": "VES",
       "categoria": "Servicios",
       "fuente": "manual",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": 896.1225,
+      "usd_bcv": 12.28,
+      "usd_equivalente": 10.43
     },
     {
       "id": "G202611-013",
@@ -158,7 +196,10 @@
       "moneda": "VES",
       "categoria": "Materia prima e ingredientes",
       "fuente": "whatsapp",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": 897.5383,
+      "usd_bcv": 255.87,
+      "usd_equivalente": 217.49
     },
     {
       "id": "G202611-014",
@@ -168,7 +209,10 @@
       "moneda": "VES",
       "categoria": "Servicios",
       "fuente": "whatsapp",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": 897.5383,
+      "usd_bcv": 29.73,
+      "usd_equivalente": 25.27
     },
     {
       "id": "G202611-015",
@@ -178,7 +222,10 @@
       "moneda": "VES",
       "categoria": "Alquiler",
       "fuente": "whatsapp",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": 897.5383,
+      "usd_bcv": 278.87,
+      "usd_equivalente": 237.04
     },
     {
       "id": "G202611-016",
@@ -188,7 +235,10 @@
       "moneda": "USD",
       "categoria": "Mantenimiento y reparaciones",
       "fuente": "whatsapp",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": null,
+      "usd_bcv": 50,
+      "usd_equivalente": 50
     },
     {
       "id": "G202611-017",
@@ -198,7 +248,10 @@
       "moneda": "VES",
       "categoria": "Bebidas",
       "fuente": "whatsapp",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": 899.2705,
+      "usd_bcv": 41.97,
+      "usd_equivalente": 35.67
     },
     {
       "id": "G202611-018",
@@ -208,7 +261,10 @@
       "moneda": "VES",
       "categoria": "Nómina y beneficios",
       "fuente": "whatsapp",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": 899.2705,
+      "usd_bcv": 35.72,
+      "usd_equivalente": 30.36
     },
     {
       "id": "G202611-019",
@@ -218,7 +274,10 @@
       "moneda": "VES",
       "categoria": "Administración y contabilidad",
       "fuente": "whatsapp",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": 901.6175,
+      "usd_bcv": 124.96,
+      "usd_equivalente": 106.22
     },
     {
       "id": "G202611-020",
@@ -228,7 +287,10 @@
       "moneda": "VES",
       "categoria": "Transporte y logística",
       "fuente": "whatsapp",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": 901.6175,
+      "usd_bcv": 7,
+      "usd_equivalente": 5.95
     },
     {
       "id": "G202611-021",
@@ -238,7 +300,10 @@
       "moneda": "VES",
       "categoria": "Materia prima e ingredientes",
       "fuente": "whatsapp",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": 901.6175,
+      "usd_bcv": 54.66,
+      "usd_equivalente": 46.46
     },
     {
       "id": "G202611-022",
@@ -248,7 +313,10 @@
       "moneda": "VES",
       "categoria": "Equipos y mobiliario",
       "fuente": "whatsapp",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": 901.6175,
+      "usd_bcv": 94,
+      "usd_equivalente": 79.9
     },
     {
       "id": "G202611-023",
@@ -258,7 +326,10 @@
       "moneda": "VES",
       "categoria": "Materia prima e ingredientes",
       "fuente": "whatsapp",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": 911.6243,
+      "usd_bcv": 150,
+      "usd_equivalente": 127.5
     },
     {
       "id": "G202611-024",
@@ -268,7 +339,10 @@
       "moneda": "VES",
       "categoria": "Servicios",
       "fuente": "whatsapp",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": 911.6243,
+      "usd_bcv": 12.07,
+      "usd_equivalente": 10.26
     },
     {
       "id": "G202611-025",
@@ -278,7 +352,10 @@
       "moneda": "VES",
       "categoria": "Materia prima e ingredientes",
       "fuente": "whatsapp",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": 911.6243,
+      "usd_bcv": 87.5,
+      "usd_equivalente": 74.37
     },
     {
       "id": "G202611-026",
@@ -288,7 +365,10 @@
       "moneda": "VES",
       "categoria": "Materia prima e ingredientes",
       "fuente": "whatsapp",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": 911.6243,
+      "usd_bcv": 184.14,
+      "usd_equivalente": 156.52
     },
     {
       "id": "G202611-027",
@@ -298,7 +378,10 @@
       "moneda": "VES",
       "categoria": "Nómina y beneficios",
       "fuente": "whatsapp",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": 911.6243,
+      "usd_bcv": 298.64,
+      "usd_equivalente": 253.85
     },
     {
       "id": "G202611-028",
@@ -308,7 +391,10 @@
       "moneda": "VES",
       "categoria": "Materia prima e ingredientes",
       "fuente": "whatsapp",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": 911.6243,
+      "usd_bcv": 4.06,
+      "usd_equivalente": 3.45
     },
     {
       "id": "G202611-029",
@@ -318,7 +404,10 @@
       "moneda": "USD",
       "categoria": "Otros",
       "fuente": "whatsapp",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": null,
+      "usd_bcv": 20,
+      "usd_equivalente": 20
     },
     {
       "id": "G202611-030",
@@ -328,7 +417,10 @@
       "moneda": "VES",
       "categoria": "Materia prima e ingredientes",
       "fuente": "whatsapp",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": 914.0218,
+      "usd_bcv": 5.7,
+      "usd_equivalente": 4.85
     },
     {
       "id": "G202611-031",
@@ -338,7 +430,10 @@
       "moneda": "VES",
       "categoria": "Limpieza e higiene",
       "fuente": "whatsapp",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": 914.0218,
+      "usd_bcv": 5.54,
+      "usd_equivalente": 4.71
     },
     {
       "id": "G202611-032",
@@ -348,7 +443,10 @@
       "moneda": "VES",
       "categoria": "Otros",
       "fuente": "whatsapp",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": 914.0218,
+      "usd_bcv": 104.39,
+      "usd_equivalente": 88.73
     },
     {
       "id": "G202611-033",
@@ -358,7 +456,10 @@
       "moneda": "VES",
       "categoria": "Materia prima e ingredientes",
       "fuente": "whatsapp",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": 915.7476,
+      "usd_bcv": 12.39,
+      "usd_equivalente": 10.53
     },
     {
       "id": "G202611-034",
@@ -368,7 +469,10 @@
       "moneda": "VES",
       "categoria": "Servicios",
       "fuente": "whatsapp",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": 915.7476,
+      "usd_bcv": 12.01,
+      "usd_equivalente": 10.21
     },
     {
       "id": "G202611-035",
@@ -378,7 +482,10 @@
       "moneda": "VES",
       "categoria": "Bebidas",
       "fuente": "whatsapp",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": 915.7476,
+      "usd_bcv": 81.97,
+      "usd_equivalente": 69.67
     },
     {
       "id": "G202611-036",
@@ -388,7 +495,10 @@
       "moneda": "VES",
       "categoria": "Materia prima e ingredientes",
       "fuente": "whatsapp",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": 915.7476,
+      "usd_bcv": 71.59,
+      "usd_equivalente": 60.85
     },
     {
       "id": "G202611-037",
@@ -398,7 +508,10 @@
       "moneda": "VES",
       "categoria": "Nómina y beneficios",
       "fuente": "whatsapp",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": 915.7476,
+      "usd_bcv": 17.01,
+      "usd_equivalente": 14.46
     },
     {
       "id": "G202611-038",
@@ -408,7 +521,10 @@
       "moneda": "VES",
       "categoria": "Empaques y desechables",
       "fuente": "whatsapp",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": 915.7476,
+      "usd_bcv": 35.52,
+      "usd_equivalente": 30.19
     },
     {
       "id": "G202611-039",
@@ -418,7 +534,10 @@
       "moneda": "VES",
       "categoria": "Transporte y logística",
       "fuente": "whatsapp",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": 915.7476,
+      "usd_bcv": 20,
+      "usd_equivalente": 17
     },
     {
       "id": "G202611-040",
@@ -428,7 +547,10 @@
       "moneda": "VES",
       "categoria": "Materia prima e ingredientes",
       "fuente": "whatsapp",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": 915.7476,
+      "usd_bcv": 227.06,
+      "usd_equivalente": 193
     },
     {
       "id": "G202611-041",
@@ -438,7 +560,10 @@
       "moneda": "VES",
       "categoria": "Materia prima e ingredientes",
       "fuente": "whatsapp",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": 915.7476,
+      "usd_bcv": 200.06,
+      "usd_equivalente": 170.05
     },
     {
       "id": "G202611-042",
@@ -448,7 +573,18 @@
       "moneda": "VES",
       "categoria": "Mantenimiento y reparaciones",
       "fuente": "whatsapp",
-      "estado": "identificado_pendiente_conciliacion"
+      "estado": "identificado_pendiente_conciliacion",
+      "tasa_bcv": 915.7476,
+      "usd_bcv": 87.36,
+      "usd_equivalente": 74.26
     }
-  ]
+  ],
+  "conversion": {
+    "metodo": "VES / tasa BCV vigente en fecha × 0.85; USD directos sin ajuste",
+    "fuente_tasas": "https://soytecnologia.com/historicodedevisas/; https://bcvhoy.com/historico/2026-11-17",
+    "precision_tasas": "4 decimales",
+    "redondeo": "por movimiento a 2 decimales",
+    "tasa_fin_de_semana": "ultima tasa vigente",
+    "factor": 0.85
+  }
 }
