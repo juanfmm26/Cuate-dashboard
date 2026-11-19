@@ -16,7 +16,7 @@
     setParams(p) { Object.entries(p).forEach(([k, v]) => { if (v == null) delete S.params[k]; else S.params[k] = v; }); render(); },
     resetParams() { S.params = { ...S.defaults }; render(); },
     setLink() {},
-    refresh() {},
+    refresh() { render(); },
   };
   function computeCalcs() {
     S.out = {};
@@ -33,6 +33,7 @@
     }));
   }
   window.dash = dash;
+  window.addEventListener('cuate:area-visible', () => requestAnimationFrame(() => requestAnimationFrame(render)));
   window.__dashStart = (payload) => {
     S.data = payload.datasets; S.cols = payload.columns || {};
     S.defaults = { ...(payload.params || {}) }; S.params = { ...S.defaults };
