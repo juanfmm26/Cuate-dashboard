@@ -1,0 +1,160 @@
+{
+  "periodo": "2026-11",
+  "fecha_recepcion": "2026-11-22",
+  "estado": "pendiente_fecha",
+  "nota": "Usuario proporcionó importes sin fechas individuales; no asumir que todos ocurrieron el 22/11 ni inventar tasa BCV. No incorporar aún al registro fechado ni al dashboard. Nómina semanal aún por recibir.",
+  "total_ves": 439159,
+  "cantidad": 15,
+  "movimientos": [
+    {
+      "id": "P202611-001",
+      "fecha": null,
+      "concepto": "Panel LED",
+      "monto": 65259,
+      "moneda": "VES",
+      "categoria_provisional": "Equipos y mobiliario",
+      "fuente": "mensaje_usuario",
+      "estado": "pendiente_fecha_y_tasa_bcv"
+    },
+    {
+      "id": "P202611-002",
+      "fecha": null,
+      "concepto": "Pan francés - cena del personal",
+      "monto": 2472,
+      "moneda": "VES",
+      "categoria_provisional": "Nómina y beneficios",
+      "fuente": "mensaje_usuario",
+      "estado": "pendiente_fecha_y_tasa_bcv"
+    },
+    {
+      "id": "P202611-003",
+      "fecha": null,
+      "concepto": "Queso - 3 barras y varios",
+      "monto": 84165,
+      "moneda": "VES",
+      "categoria_provisional": "Materia prima e ingredientes",
+      "fuente": "mensaje_usuario",
+      "estado": "pendiente_fecha_y_tasa_bcv"
+    },
+    {
+      "id": "P202611-004",
+      "fecha": null,
+      "concepto": "Verduras",
+      "monto": 7199,
+      "moneda": "VES",
+      "categoria_provisional": "Materia prima e ingredientes",
+      "fuente": "mensaje_usuario",
+      "estado": "pendiente_fecha_y_tasa_bcv"
+    },
+    {
+      "id": "P202611-005",
+      "fecha": null,
+      "concepto": "Hielo",
+      "monto": 3000,
+      "moneda": "VES",
+      "categoria_provisional": "Materia prima e ingredientes",
+      "fuente": "mensaje_usuario",
+      "estado": "pendiente_fecha_y_tasa_bcv"
+    },
+    {
+      "id": "P202611-006",
+      "fecha": null,
+      "concepto": "Verduras",
+      "monto": 5211,
+      "moneda": "VES",
+      "categoria_provisional": "Materia prima e ingredientes",
+      "fuente": "mensaje_usuario",
+      "estado": "pendiente_fecha_y_tasa_bcv"
+    },
+    {
+      "id": "P202611-007",
+      "fecha": null,
+      "concepto": "Hielo y agua",
+      "monto": 2016,
+      "moneda": "VES",
+      "categoria_provisional": "Materia prima e ingredientes",
+      "fuente": "mensaje_usuario",
+      "estado": "pendiente_fecha_y_tasa_bcv"
+    },
+    {
+      "id": "P202611-008",
+      "fecha": null,
+      "concepto": "Hielo y agua",
+      "monto": 3310,
+      "moneda": "VES",
+      "categoria_provisional": "Materia prima e ingredientes",
+      "fuente": "mensaje_usuario",
+      "estado": "pendiente_fecha_y_tasa_bcv"
+    },
+    {
+      "id": "P202611-009",
+      "fecha": null,
+      "concepto": "Hielo y agua",
+      "monto": 3000,
+      "moneda": "VES",
+      "categoria_provisional": "Materia prima e ingredientes",
+      "fuente": "mensaje_usuario",
+      "estado": "pendiente_fecha_y_tasa_bcv"
+    },
+    {
+      "id": "P202611-010",
+      "fecha": null,
+      "concepto": "Hielo y agua",
+      "monto": 2628,
+      "moneda": "VES",
+      "categoria_provisional": "Materia prima e ingredientes",
+      "fuente": "mensaje_usuario",
+      "estado": "pendiente_fecha_y_tasa_bcv"
+    },
+    {
+      "id": "P202611-011",
+      "fecha": null,
+      "concepto": "Moisés - delivery",
+      "monto": 9647,
+      "moneda": "VES",
+      "categoria_provisional": "Transporte y logística",
+      "fuente": "mensaje_usuario",
+      "estado": "pendiente_fecha_y_tasa_bcv"
+    },
+    {
+      "id": "P202611-012",
+      "fecha": null,
+      "concepto": "Verduras",
+      "monto": 198045,
+      "moneda": "VES",
+      "categoria_provisional": "Materia prima e ingredientes",
+      "fuente": "mensaje_usuario",
+      "estado": "pendiente_fecha_y_tasa_bcv"
+    },
+    {
+      "id": "P202611-013",
+      "fecha": null,
+      "concepto": "Toallín",
+      "monto": 2400,
+      "moneda": "VES",
+      "categoria_provisional": "Limpieza e higiene",
+      "fuente": "mensaje_usuario",
+      "estado": "pendiente_fecha_y_tasa_bcv"
+    },
+    {
+      "id": "P202611-014",
+      "fecha": null,
+      "concepto": "Teflón y teipe",
+      "monto": 2207,
+      "moneda": "VES",
+      "categoria_provisional": "Mantenimiento y reparaciones",
+      "fuente": "mensaje_usuario",
+      "estado": "pendiente_fecha_y_tasa_bcv"
+    },
+    {
+      "id": "P202611-015",
+      "fecha": null,
+      "concepto": "Franelas para personal",
+      "monto": 48600,
+      "moneda": "VES",
+      "categoria_provisional": "Nómina y beneficios",
+      "fuente": "mensaje_usuario",
+      "estado": "pendiente_fecha_y_tasa_bcv"
+    }
+  ]
+}
