@@ -1,8 +1,8 @@
 {
   "periodo": "2026-11",
   "rango_fechas": "2026-11-19 a 2026-11-21",
-  "estado": "fechas_en_rango_sin_dia_individual",
-  "nota": "El usuario autorizó asumir que todos los movimientos ocurrieron entre jueves 19 y sábado 21 de noviembre de 2026. No asignar fecha exacta a ningún movimiento; USD equivalentes pendientes hasta determinar tasa aplicable.",
+  "estado": "integrado_en_registro_principal",
+  "nota": "Histórico de recepción; estos 16 movimientos ya están incorporados en data/gastos/2026-11.json con tasa referencial BCV del 20/11. NO SUMAR ESTE ARCHIVO DE NUEVO.",
   "cantidad": 16,
   "total_ves": 712784,
   "movimientos": [
