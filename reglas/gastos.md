@@ -1,14 +1,15 @@
 # Cuate — Reglas de gastos
-
 - Fuente primaria: exportación de WhatsApp Contabilidad.zip y aclaraciones manuales.
-- Fecha de inicio del registro actual: 2026-11-02 (incluye incorporaciones manuales anteriores al 07/11).
-- Guardar moneda e importe originales. No convertir Bs. a USD sin tasa documentada por fecha.
-- Registrar fecha de comprobante y fecha de mensaje por separado cuando ambas estén disponibles; por ahora la fecha del mensaje es la disponible.
-- No duplicar importes de comprobantes y sus descripciones ni equivalencias Bs/USD.
-- Moisés y Tito son servicios de delivery distintos. Abono Tito del 17/11: Bs. 18.316; referencia de $20 NO es un segundo gasto.
-- Comentario de 33 kg de pollo del 18/11 NO es un gasto registrado.
-- Birria antigua de USD 54,07 NO pertenece al período.
+- Fecha de inicio del registro actual: 2026-11-02.
+- Registrar **cada movimiento** con ID estable, fecha o rango real, concepto, proveedor si se conoce, importe y moneda originales, categoría, fuente, estado y equivalente USD. Guardar fecha de comprobante y mensaje separadas si existen.
+- No duplicar comprobantes y descripciones, equivalencias Bs/USD ni lotes históricos ya integrados. Los 16 gastos del 19–21/11 están **integrados** en `data/gastos/2026-11.json`; el archivo `pendientes-fecha-2026-11-22.json` es solo respaldo.
+- Si la fecha exacta no se conoce, mantener `fecha_inicio`, `fecha_fin` y `fecha_exacta_confirmada:false`. Una fecha imputada para cálculo no es la fecha real.
+- Clasificar según `data/proveedores.json` y señalar categorías provisionales. No inventar desglose de compras mixtas ni conceptos desconocidos.
+- Moisés y Tito son servicios de delivery distintos. Abono Tito 17/11: Bs. 18.316; referencia de USD 20 NO es otro gasto.
+- Comentario sobre 33 kg de pollo del 18/11 NO es gasto registrado. Birria antigua USD 54,07 NO corresponde al período.
 - Confiaca: contadores; Distrilasr: tortillas; Farmaexpress: compras para cena sin desglose.
-- Compras mixtas, pendientes y conceptos no confirmados no se deben inventar ni clasificar como definitivos.
-- Gastos, ventas y food cost tienen archivos y fuentes separados; rentabilidad solo cruza períodos y tasas conciliados.
-- Registro de noviembre es preliminar, no una conciliación bancaria.
+- Refrescos Pulgar sin monto, concepto de Luis USD 20 y conciliación bancaria continúan pendientes según el archivo canónico.
+- Cada nueva carga debe actualizar registro canónico, archivo JS del dashboard, métricas, gráficos, categorías, conteos, filtros y explorador de movimientos; comprobar aritmética y ausencia de duplicados.
+- Gastos, ventas y food cost tienen archivos separados; rentabilidad solo cruza períodos comparables. Compras no equivalen a consumo.
+- Noviembre es preliminar, no conciliación bancaria.
+- Seguir `reglas/MAESTRAS.md` y `reglas/conversiones.md`.
